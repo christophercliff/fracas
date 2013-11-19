@@ -1,0 +1,24 @@
+{
+  "name": "fracas",
+  "version": "0.0.0",
+  "description": "Scrape web font meta data from the DOM",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophercliff/fracas"
+  },
+  "dependencies": {
+    "jquery": "~2.1.0-beta2"
+  },
+  "devDependencies": {
+    "should": "~2.1.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt": "~0.4.1",
+    "browserify": "~2.35.4",
+    "grunt-browserify": "~1.2.11",
+    "grunt-mocha": "~0.4.1"
+  }
+}
