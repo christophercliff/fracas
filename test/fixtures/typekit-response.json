@@ -1,0 +1,24 @@
+{
+  "kit": {
+    "id": "qto3kyx",
+    "families": [
+      {
+        "id": "vcsm",
+        "name": "Proxima Nova",
+        "slug": "proxima-nova",
+        "css_names": [
+          "proxima-nova"
+        ],
+        "css_stack": "\"proxima-nova\",sans-serif",
+        "variations": [
+          "n3",
+          "i3",
+          "n4",
+          "i4",
+          "n7",
+          "i7"
+        ]
+      }
+    ]
+  }
+}

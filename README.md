@@ -4,7 +4,11 @@
 
 Services supported:
 
-- Typekit
+- ~~[Fontdeck](http://fontdeck.com/)~~
+- ~~[Google Fonts](http://www.google.com/fonts)~~
+- ~~[Hoefler & Frere-Jones](http://www.typography.com/cloud/welcome/)~~
+- ~~[Monotype](http://www.fonts.com/web-fonts)~~
+- ~~[Typekit](https://typekit.com/)~~
 
 ## Tests
 
