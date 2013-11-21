@@ -67,4 +67,15 @@ describe('googleFonts.getFamilies()', function(){
         ])
     })
 
+    it('should not find false positives', function(){
+        document.body.innerHTML = [
+            '<link href="http://fonts.googleapis.com/css?asdf=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic" rel="stylesheet" type="text/css">',
+            '<link href="http://fonts.googleapis.com/css?families" rel="stylesheet" type="text/css">',
+            '<link href="http://fonts.googleapis.com/foo?families=Antic+Slab" rel="stylesheet" type="text/css">',
+            '<link href="http://fonts.googleapis.net/css?families=Antic+Slab" rel="stylesheet" type="text/css">'
+        ].join()
+        families = fracas.googleFonts.getFamilies()
+        families.should.eql([])
+    })
+
 })
